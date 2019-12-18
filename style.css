@@ -1,0 +1,307 @@
+body,
+html {
+    background-color: rgb(240, 244, 243);
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-left-right {
+    width: 95%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto;
+    font-family: 'Raleway', sans-serif;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=0, Color=#D9D9D9)";
+    /*IE 8*/
+    -moz-box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /*FF 3.5+*/
+    -webkit-box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0 0 10px 2px rgba(217, 217, 217, 0.6);
+    /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#D9D9D9);
+    /*IE 5.5-7*/
+}
+
+/* ======== form left style starts =========== */
+.form-left {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 177, 155);
+}
+
+.social-md-icon {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.social-md-icon a:not(:last-child){
+    margin-right: 5px;
+}
+
+.font-awesome {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    color: rgb(80, 80, 80);
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.font-awesome:hover {
+    background-color: rgb(58, 177, 155);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.subtitle-text {
+    margin-bottom: 20px;
+}
+
+.subtitle-text p {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(175, 175, 175);
+}
+
+.form-container {
+    position: relative;
+}
+
+.form-container .input-area {
+    width: 100%;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: rgb(140, 140, 140);
+    background-color: rgb(244, 248, 247);
+    border: transparent;
+    border-radius: 2px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.form-container .input-area:hover,
+.form-container .input-area:focus,
+.form-container .input-area:valid {
+    border: 2px solid rgb(131, 175, 164);
+}
+
+.form-container a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(131, 175, 164);
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    color: rgb(38, 115, 110)
+}
+
+.form-container .input-submit {
+    background-color: rgb(58, 177, 155);
+    outline: none;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.form-container .input-submit:hover {
+    background-color: rgb(31, 96, 84);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=0, Color=#8BDACB)";
+    /*IE 8*/
+    -moz-box-shadow: 0 0 15px 2px rgba(139, 218, 203, 0.7);
+    /*FF 3.5+*/
+    -webkit-box-shadow: 0 0 15px 2px rgba(139, 218, 203, 0.7);
+    /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0 0 15px 2px rgba(139, 218, 203, 0.7);
+    /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#8BDACB);
+    /*IE 5.5-7*/
+}
+
+/* ======== form left style ends ========== */
+
+/* ========= form right style starts ========== */
+.form-right {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(58, 173, 165);
+    padding: 30px 15px 15px;
+}
+
+.form-right-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.personal-details p {
+    text-align: center;
+    padding-top: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.sign-up {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sign-up .button {
+    padding: 10px 40px;
+    text-decoration: none;
+    text-align: center;
+    background: transparent;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.form-right a.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 177, 155);
+}
+
+/* ============ form right style ends ============ */
+
+/* ===== remove cross from input field in IE ===== */
+::-ms-clear,
+::-ms-reveal {
+    display: none;
+}
+
+/* ==== Small devices and most phones ===== */
+@media (min-width: 480px) {
+    .form-left-right {
+        width: 95%;
+        flex-direction: row;
+    }
+
+    .form-left {
+        width: 60%;
+        padding: 30px;
+    }
+
+    .form-heading {
+        font-size: 24px;
+    }
+
+    .form-right {
+        width: 40%;
+        padding-top: 0
+    }
+}
+
+/* ===== Most tablets ===== */
+@media (min-width: 768px) {
+    .form-left-right {
+        width: 70%;
+    }
+
+    .form-left {
+        padding: 30px;
+    }
+
+    .form-right a.button {
+        margin-top: 30px;
+    }
+}
+
+/* ====== Smaller desktop viewpoints ====== */
+@media (min-width: 992px) {
+    .form-left-right {
+        width: 60%;
+    }
+
+    .form-right {
+        padding: 30px;
+    }
+}
+
+/* ====== Large desktop and wide screen */
+@media (min-width: 1200px) {
+    .form-left-right {
+        width: 45%;
+    }
+}
+
+/* ====== HD or retina display ====== */
+@media (min-width: 1920px) {
+    .form-left-right {
+        width: 30%;
+    }
+}
+
+/* ====== 4K or ultra HD display ====== */
+@media (min-width: 2560px) {
+    .form-left-right {
+        width: 25%;
+    }
+}
